@@ -855,6 +855,7 @@ export default class TextField extends PureComponent {
         onBlur={this._handleBlur}
         onChange={this._handleChange}
         inlineIndicator={!!inlineIndicator}
+        maxLength={maxLength}
       />
     );
 
